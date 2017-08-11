@@ -1,7 +1,7 @@
 
 
 
-#### This repo is a Getting and Cleaning Data Course project submission.
+### This repo is a Getting and Cleaning Data Course project submission.
 
 Following the course instruction, these files can be found in this repo.
 
