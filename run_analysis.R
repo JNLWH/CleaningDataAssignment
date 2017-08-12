@@ -1,5 +1,7 @@
 ### part 1 - transform & combine test data with train data incl. descriptive activity ###
 
+# create new R project and download needed libraries
+
 library(dplyr)
 library(data.table)
 
