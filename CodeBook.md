@@ -43,7 +43,7 @@ Has 6 unique values:
 Each subjectID represents 1 device or 1 person who carries this device. There are in total 30 subjects. 
 
 
-#### 73 variables for selected feature vectors & their averages
+#### The 73 variables for selected feature vectors & their averages
 
 To best explain what features are collected and how, below is some concise info from the dataset origin.
 
@@ -60,7 +60,7 @@ To best explain what features are collected and how, below is some concise info 
 
 The course assignment instruction required to select ``mean()`` and ``std()`` variables for the above signals. For a complete list of variables in addition to shown here, please check ``features_info.txt`` file from the  [original data source](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-Below are all the complete list of 73 feature vectors included in **data table**.
+Below is a complete list of 73 variables included in **data table**.
 
 - tBodyAcc-mean()-X
 - tBodyAcc-mean()-Y                   
@@ -135,7 +135,7 @@ Below are all the complete list of 73 feature vectors included in **data table**
 - angle(Y,gravityMean)                
 - angle(Z,gravityMean)              
 
-In **average table**, all the above 73 variables' averages are calculated per activity and per subject. A complete list of 73 average variables is as following:
+In **average table**, all the above 73 variables' averages are calculated per activity and per subject. A complete list of 73 average variables are as following:
 
 - avg-tBodyAcc-mean()-X
 - avg-tBodyAcc-mean()-Y                   
