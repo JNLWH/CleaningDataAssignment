@@ -6,7 +6,7 @@ This project is part of the course assignment from Data Science Specialization C
 
 ### Source Data
 
-The data sourced for this project is from the area of Wearable Computing, more specifically Human Activity Recognition Using Smartphones Data Set. It's collected from the accelerometers from the Samsung Galaxy S smartphone. A full description and datasets used in this project is available at the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
+The data sourced for this project is from the field of Wearable Computing, more specifically Human Activity Recognition Using Smartphones Data Set. It's collected from the accelerometers from the Samsung Galaxy S smartphone. A full description and datasets used in this project is available at the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
 ### Result Tables
 
@@ -43,7 +43,7 @@ Has 6 unique values:
 Each subjectID represents 1 device or 1 person who carries this device. There are in total 30 subjects. 
 
 
-#### 73 selected feature vectors & their averages
+#### 73 variables for selected feature vectors & their averages
 
 To best explain what features are collected and how, below is some concise info from the dataset origin.
 
