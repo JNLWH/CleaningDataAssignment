@@ -1,6 +1,5 @@
 
 
-
 ### This repo is a project submission from course Getting and Cleaning Data on Coursera.
 
 Following the course instruction, these files can be found in this repo.

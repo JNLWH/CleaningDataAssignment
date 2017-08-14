@@ -67,9 +67,11 @@ rm(trainSub,trainX,trainXrm,trainXtrim, trainY)
 
 # combine test and train data by row to form dataTrim
 # join dataTrim with Activity to get activity description. remove activity code afterwards.
+# re-order data table columns. This is not a must for next step but only to make both tables extra tidy.
 
 dataTrim <- merge(rbind(testTrim, trainTrim), activity, by ="activityCode")
 data <- select(dataTrim, -activityCode)
+data = data[,c(75,1:74)]
 
 # remove redundant datasets.
 
