@@ -1,4 +1,4 @@
-## About result tables from script run_analysis.R
+## About result tables from script "run_analysis.R"
 
 ### Project
 
@@ -10,23 +10,23 @@ The data sourced for this project is from the area of Wearable Computing, more s
 
 ### Result Tables
 
-There are 2 result (tidy) tables from this project:
+There are 2 (tidy) result tables from this assignment:
 
 1. data
 2. average
 
-Both tables have 75 columns where *data* table has more granular observation data and *average* table contains average per same measurement grouped by activity and subject.
+Both tables have 75 columns where *data* table has more granular observation data and *average* table contains average for each measurement in *data* table grouped by activity and subject.
 
 An overview of the tables are as following:
 
-Table | Column 1 | Column 2 | Column 3 to 75 | Number of observations
+table | column 1 | column 2 | column 3 to 75 | number of observations
 ----- | -------- | -------- | -------------- | ----------------------
-data | activity | subjectID | 73 selected features with time and frequency domain variables | 10299 obs.
+data | activity | subjectID | 73 variables of selected feature vectors from time and frequency domain signals | 10299 obs.
 average | activity | subjectID | average of the above 73 measurements grouped by activity per subject | 180 obs.
 
 ### Further info
 
-#### Activity
+#### activity
 
 Has 6 unique values:
 
@@ -45,11 +45,9 @@ Each subjectID represents 1 device or 1 person who carries this device. There ar
 
 #### 73 selected feature vectors & their averages
 
-The features selected come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
+To best explain what features are collected and how, below is some concise info from the dataset origin.
 
-Below are some short explanation about what these signals mean - taken from Feature Info from original dataset.
-
-> These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+> The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 > Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
 
@@ -60,7 +58,7 @@ Below are some short explanation about what these signals mean - taken from Feat
 
 > Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable.
 
-The course assignment instruction required to select ``mean()`` and ``std()`` variables for the above signals. For a complete list of variables in addition to the above, please check ``features_info.txt`` file from the  [original data source](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+The course assignment instruction required to select ``mean()`` and ``std()`` variables for the above signals. For a complete list of variables in addition to shown here, please check ``features_info.txt`` file from the  [original data source](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 Below are all the complete list of 73 feature vectors included in **data table**.
 
