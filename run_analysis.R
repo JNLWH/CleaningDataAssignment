@@ -82,6 +82,11 @@ average <-
         group_by(activity, subjectID) %>%
         summarize_all(funs(mean))
 
+# append "avg-" to indicate results are calculated average for each measurement
+
+namelistAvg <- c(paste0('avg-',names(average)[3:75]))
+colnames(average) <- c("activity", "subjectID", namelistAvg)
+
 # tidy Average data is exported as csv for further analysis.
 write.csv(average, file = "average.csv")
 

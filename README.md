@@ -1,18 +1,18 @@
 
 
 
-### This repo is a Getting and Cleaning Data Course project submission.
+### This repo is a project submission from course Getting and Cleaning Data on Coursera.
 
 Following the course instruction, these files can be found in this repo.
 
-**run_analysis.R** contains the script covering 2 main parts:
+**1) run_analysis.R** contains the script covering 2 main parts:
 
 1. transforming and combining *test* data with *train* data incl. descriptive activity
 2. preparing the tidy *mean* dataset for each activity and each subject
 
 Concise explanation per code block can be found in the script file. Here I'd like to mention a few bits and pieces I found interesting to work with this dataset.
 
-I used [Course Tutorial](https://github.com/lgreski/datasciencectacontent/blob/master/markdown/rprog-downloadingFiles.md) for zip file download and unzipping. It was very helpful.
+I used the [Course Tutorial](https://github.com/lgreski/datasciencectacontent/blob/master/markdown/rprog-downloadingFiles.md) for zip file download and unzipping. It was very helpful.
 
 Column 2 of the Features was the 561 variables. I chose to subset it and convert into a vector of characters. In this way, it was ready to be used to rename X column names in one line of code later on.
 
@@ -63,13 +63,13 @@ average <-
         summarize_all(funs(mean))
 ```
 
-The **_result file_** of average was then written into a csv file and submitted on course site, not here in the repo, as instructed.
+Before writing **_result file_** of measurement average into a csv file, the calculation column headers have all been updated into "avg-measureMean" or avg-measureStd" to clearly indicate the results. Then the **_result file_** was submitted on course site, not here in the repo, as instructed.
 
 
-**CodeBook.md** gives the background of dataset, data source and variables produced by my run_analysis.R script.
+**2) CodeBook.md** gives the background of dataset, data source and variables produced by my run_analysis.R script.
 
 
-**README.md** is the one you are reading now. Hope it's clear. I certainly enjoyed working with it. Thanks for reading and grading my project!
+**3) README.md** is the one you are reading now. Hope it's clear. I certainly enjoyed working with it. Thanks for reading and grading my project!
 
 
 
