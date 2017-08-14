@@ -1,16 +1,14 @@
+## About result tables from script run_analysis.R
 
-
-##About result tables from script run_analysis.R
-
-###Project
+### Project
 
 This project is part of the course assignment from Data Science Specialization Course 3 Getting and Cleaning Data. Its purpose is to demonstrate one's ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
-###Source Data
+### Source Data
 
 The data sourced for this project is from the area of Wearable Computing, more specifically Human Activity Recognition Using Smartphones Data Set. It's collected from the accelerometers from the Samsung Galaxy S smartphone. A full description and datasets used in this project is available at the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
-###Result Tables
+### Result Tables
 
 There are 2 result (tidy) tables from this project:
 
@@ -26,9 +24,9 @@ Table | Column 1 | Column 2 | Column 3 to 75 | Number of observations
 data | activity | subjectID | 73 selected features with time and frequency domain variables | 10299 obs.
 average | activity | subjectID | average of the above 73 measurements grouped by activity per subject | 180 obs.
 
-###Further info
+### Further info
 
-####Activity
+#### Activity
 
 Has 6 unique values:
 
@@ -40,12 +38,12 @@ Has 6 unique values:
 - LAYING
 
 
-####SubjectID
+#### SubjectID
 
 Each subjectID represents 1 device or 1 person who carries this device. There are in total 30 subjects. 
 
 
-####73 selected features
+#### 73 selected feature vectors & their averages
 
 The features selected come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 
