@@ -1,4 +1,4 @@
-## About result tables from script "run_analysis.R"
+## About Data and Result Tables in CleaningDataAssignment Repo
 
 ### Project
 
@@ -6,11 +6,11 @@ This project is part of the course assignment from Data Science Specialization C
 
 ### Source Data
 
-The data sourced for this project is from the field of Wearable Computing, more specifically Human Activity Recognition Using Smartphones Data Set. It's collected from the accelerometers from the Samsung Galaxy S smartphone. A full description and datasets used in this project is available at the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
+The data sourced for this project is from the field of Wearable Computing. More specifically, it's a Human Activity Recognition Using Smartphones Data Set. It was collected from the accelerometers from the Samsung Galaxy S smartphone. A full description and datasets collected originally is available at the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
 ### Result Tables
 
-There are 2 (tidy) result tables from this assignment:
+For this assignment, 2 (tidy) result tables were produced from ``run_analysis.R`` according to the course instruction:
 
 1. data
 2. average
