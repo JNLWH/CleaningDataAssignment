@@ -2,15 +2,15 @@
 
 ### Project
 
-This project is part of the course assignment from Data Science Specialization Course 3 Getting and Cleaning Data. Its purpose is to demonstrate one's ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
+This project is a course assignment from Data Science Specialization Course 3 Getting and Cleaning Data. Its purpose is to demonstrate one's ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
 ### Source Data
 
-The data sourced for this project is from the field of Wearable Computing. More specifically, it's a Human Activity Recognition Using Smartphones Data Set. It was collected from the accelerometers from the Samsung Galaxy S smartphone. A full description and datasets collected originally is available at the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
+The data sourced for this project is from the field of Wearable Computing. More specifically, it's a Human Activity Recognition Using Smartphones Data Set and was collected from the accelerometers from the Samsung Galaxy S smartphone. A full description and datasets collected originally is available at the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
 ### Result Tables
 
-For this assignment, 2 (tidy) result tables were produced from ``run_analysis.R`` according to the course instruction:
+For this assignment, two (tidy) result tables were produced from ``run_analysis.R`` according to the course instruction:
 
 1. data
 2. average
