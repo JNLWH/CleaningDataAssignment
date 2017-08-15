@@ -62,7 +62,7 @@ average <-
         summarize_all(funs(mean))
 ```
 
-Before writing **_result file_** of measurement average into a csv file, the calculation column headers have all been updated into "avg-measureMean..." or avg-measureStd..." to clearly indicate the results. Then the **_result file_** was submitted on course site, not here in the repo, as instructed.
+Before writing **_result file_** of measurement average into a txt file, the calculation column headers have all been updated into "avg-measureMean..." or avg-measureStd..." to clearly indicate the results. Then the **_result file_** was submitted on course site, not here in the repo, as instructed.
 
 
 **2) CodeBook.md** gives the background of dataset, data source and variables produced by ``run_analysis.R`` script.
