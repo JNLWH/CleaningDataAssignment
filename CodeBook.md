@@ -58,7 +58,7 @@ To best explain what features are collected and how, below is some concise info 
 
 > Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable.
 
-The course assignment instruction required to select ``mean()`` and ``std()`` variables for the above signals. For a complete list of variables in addition to shown here, please check ``features_info.txt`` file from the  [original data source](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+The course assignment instruction required to select ``mean()`` and ``std()`` variables for the above signals. For a complete list of variables in addition to those that are shown here, please check ``features_info.txt`` file from the  [original data source](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 Below is a complete list of 73 variables included in **data table**.
 
